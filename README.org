@@ -1,0 +1,22 @@
+#+TITLE:Desafio Go - Full Cycle 3.0
+#+AUTHOR: Lucian Augusto
+#+STARTUP: showeverything
+#+OPTIONS: date:nill toc:nil num:1
+
+* Desafio
+"Você terá que publicar uma imagem no docker hub. Quando executarmos:
+#+begin_src
+docker run <seu-user>/codeeducation
+#+end_src
+
+Temos que ter o seguinte resultado: Code.education Rocks!
+
+Se você perceber, essa imagem apenas realiza um print da mensagem como resultado final, logo, vale a pena dar uma conferida no próprio site da Go Lang para aprender como fazer um "olá mundo".
+
+Lembrando que a Go Lang possui imagens oficiais prontas, vale a pena consultar o Docker Hub.
+
+3) A imagem de nosso projeto Go precisa ter menos de 2MB =)"
+
+* Repositório DockerHub
++ Imagem: lucianaugusto/codeeducation
++ Link DockerHub [[https://hub.docker.com/layers/lucianaugusto/codeeducation/latest/images/sha256:16f0a18d6e201b8dac25c8f7f97f63578b3927013ef6b392098cc8f30db3edea][lucianaugusto/codeeducation]]
